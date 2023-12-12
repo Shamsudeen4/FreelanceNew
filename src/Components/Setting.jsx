@@ -5,10 +5,12 @@ function Setting() {
 <div className=' flex flex-col overflow-hidden font-poppins w-[100%]  '>
       <div>
         <div className=''>
-            <div className='w-[100%] lg:h-[12vh] sm:h-[9vh] bg-[#D9D9D980]'></div>
-            <div className=' absolute -top-[1px] right-10'>
-                <img src={male} className="sm:w-[15vw]" alt="" />
+            <div className='flex justify-between items-center  w-[100%] lg:h-[12vh]  sm:h-[9vh] bg-[#D9D9D980]'>
+                 <h1 className=" lg:pl-[200px] font-bold lg:text-[25px] sm:pl-[165px]">Settings</h1>
+                 <img src={male} className="sm:w-[15vw]" alt="" />
             </div>
+           
+           
         </div>
        <div className='flex flex-col gap-[80px] items-center h-[85vh] justify-center'>
         <div className='items-center'>

@@ -27,38 +27,38 @@ function Sidebar(props) {
         </div>
         <div className="flex flex-col items-start gap-[70px]">
         <div className='flex flex-col lg:items-center sm:items-start justify-center gap-[30px] sm:w-[100%] '>
-           <Link className={props.dashboard} to="/dashboard"> <div  className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'lg:pl-[4px]' : 'lg:pl-[0px]' } sm:w-[100%] hover:bg-[#79eb7f] cursor-pointer   flex gap-2 items-center  py-[5px] transition-all`}>
+           <Link className={props.dashboard} to="/dashboard"> <div  className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' } ${side ? 'lg:pl-[4px]' : 'lg:pl-[0px]' } sm:w-[100%] hover:bg-[#79eb7f] cursor-pointer   flex gap-2 items-center  py-[5px] transition-all`}>
                 <img className={`lg:w-[3.5vw] pl-1 sm:w-[15vw]`} src={dashbod} alt="" />
              <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold text-[20px] sm:text-[18px] transition-all`}>Dashboard</h2>
             </div>
             </Link>
             <Link className={props.search} to="/search">
-            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
+            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
                 <img className={`lg:w-[4vw] sm:w-[15vw] `} src={search} alt="" />
                 <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold text-[20px] sm:text-[18px] transition-all sm:`}>Search Client</h2> 
             </div>
             </Link>
             <Link className={props.contacts} to="/contact">
-            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f]  py-[5px] transition-all`}>
+            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f]  py-[5px] transition-all`}>
                 <img className={`lg:w-[4vw] sm:w-[15vw]`} src={contacts} alt="" />
                  <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold text-[20px] sm:text-[18px] transition-all`}>Contacts</h2> 
             </div>
             </Link>
             <Link className={props.wallet} to="/wallet">
-            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
+            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
                 <img className={`lg:w-[4vw] sm:w-[15vw]`} src={wallet} alt="" />
                 <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold text-[20px] sm:text-[18px] transition-all`}>Wallet</h2> 
             </div>
             </Link>
             <Link className={props.settings} to="/settings">
-            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
+            <div className={` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' }  sm:w-[100%] cursor-pointer  flex items-center hover:bg-[#79eb7f] py-[5px] transition-all`}>
                 <img className={`lg:w-[4vw] sm:w-[15vw]`} src={settings} alt="" />
                 <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold lg:text-[20px] sm:text-[18px] transition-all`}>Settings</h2> 
             </div>
             </Link>
         </div>
         <Link className={props.logout} to="/logout">
-        <div className= {` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } sm:w-[100%] cursor-pointer  ${side ? 'pl-[10px]' : 'pl-[0px]' } hover:bg-[#79eb7f] gap-2 pb-3 flex items-center   py-[5px] transition-all`}>
+        <div className= {` ${side ? 'lg:w-[15vw]' : 'lg:w-[4vw]' } ${side ? 'sm:w-[50vw]' : '' } sm:w-[100%] cursor-pointer  ${side ? 'pl-[10px]' : 'pl-[0px]' } hover:bg-[#79eb7f] gap-2 pb-3 flex items-center   py-[5px] transition-all`}>
             <img className={`lg:w-[3.5vw] pl-1 sm:w-[15vw]`} src={logout} alt="" />
             <h2 className={`${side ? 'block' : 'hidden'} font-poppins font-semibold text-[20px] sm:text-[18px] transition-all`}>Log Out</h2> 
         </div>
